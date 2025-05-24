@@ -48,11 +48,11 @@ Make sure you have **Python 3.x** installed. You’ll also need **pipenv** (or y
 4. **Run the development server**
    ```bash
    python manage.py runserver
-**Open your browser and go to:**
-```bash
-http://127.0.0.1:8000/
+5. **Open your browser and go to:**
+   ```bash
+   http://127.0.0.1:8000/
 
-## 📁 Project Structure
+##📁 Project Structure
 
 ```bash
 DJANGO-FORM/
@@ -75,3 +75,4 @@ DJANGO-FORM/
 ├── .gitignore
 ├── manage.py
 └── README.md
+
