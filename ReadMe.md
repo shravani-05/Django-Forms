@@ -1,27 +1,13 @@
-# Django Form Mini Project
+# Django Form Miniproject
 
 ![Python Version](https://img.shields.io/badge/python-3.x-blue)
 ![Django Version](https://img.shields.io/badge/django-5.2.1-green)
-![License](https://img.shields.io/badge/license-MIT-yellow)
 
-A simple Django web application demonstrating a basic form-submission workflow, with:
+A Django web application demonstrating a basic form-submission workflow, with:
 
 - A **Home** page  
 - A **Form** page (with server-side validation)  
 - A **Success** confirmation page  
-
----
-
-## 📑 Table of Contents
-
-- [Features](#features)  
-- [Tech Stack](#tech-stack)  
-- [Prerequisites](#prerequisites)  
-- [Setup & Installation](#setup--installation)  
-- [Usage](#usage)  
-- [Screenshots](#screenshots)  
-- [Contributing](#contributing)  
-- [License](#license)  
 
 ---
 
@@ -66,3 +52,26 @@ Make sure you have **Python 3.x** installed. You’ll also need **pipenv** (or y
 ```bash
 http://127.0.0.1:8000/
 
+## 📁 Project Structure
+
+```bash
+DJANGO-FORM/
+├── form/                   # project configuration
+│   ├── __init__.py
+│   ├── asgi.py
+│   ├── settings.py
+│   ├── urls.py
+│   └── wsgi.py
+├── formapp/                # your Django app
+│   ├── migrations/
+│   │   └── __init__.py
+│   ├── __init__.py
+│   ├── admin.py
+│   ├── apps.py
+│   ├── models.py
+│   ├── tests.py
+│   └── views.py
+├── venv/                   # virtual environment
+├── .gitignore
+├── manage.py
+└── README.md
