@@ -1,13 +1,13 @@
-# DJANGO FORM MINIPROJECT
+#DJANGO FORM MINIPROJECT
 
 A simple Django web application demonstrating a basic form submission workflow with a home page, a form page, and a success confirmation page.
 
-## Technologies used
+##Technologies used
 Django - 5.2.1
 Python 3.x
 HTML5, CSS3
 
-## Setup Instructions
+##Setup Instructions
 *1. Clone the repository*
 git clone https://github.com/shravani-05/Django-Forms
 
